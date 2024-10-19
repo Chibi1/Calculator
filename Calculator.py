@@ -34,10 +34,6 @@ def create_gui():
     expression_field = Entry(root, textvariable=equation)
     expression_field.grid(columnspan=4, ipadx=70)
    
-
-
-    
-
     buttons = [
         "7", "8", "9", 
         "4", "5", "6",
@@ -77,9 +73,6 @@ def create_gui():
     Decimal.grid(row=4, column=3)
 
 
-    
-    
-    
     timer_display = tk.Label(root, text="00:00", width=16, height=2, font=("Arial", 20))
     timer_display.grid(row=row+1, column=0, columnspan=4) 
 
@@ -92,8 +85,6 @@ def create_gui():
     clock_format_dropdown.grid(row=row+3, column=0, columnspan=4)
 
 
-    
-    
     def update_clock():
         
         if clock_format_var.get() == "12-hour clock":
@@ -135,7 +126,6 @@ def create_gui():
     color_button = tk.Button(root, text="Blue", command=lambda:change_color("light blue"))
     color_button.grid(row=row+2, column=0, columnspan=2)
 
-  
 
     root.mainloop()
     
