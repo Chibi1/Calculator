@@ -13,7 +13,7 @@ def equalpress():
         global expression, equation
         total= str(eval(expression))
         equation.set(total)
-        equation = ""
+               
     except:
         equation.set(" error ")
         expression = ""
