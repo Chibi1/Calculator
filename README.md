@@ -5,7 +5,5 @@ It is a technology application that has a graphical user interface (GUI) which c
 
 The software application provides the core functionality of a traditional calculator, but with added features that enable users to personalize the look and feel of the interface. In addition to basic arithmetic operations, the application includes extra buttons that allow users to modify the color scheme of the calculator and switch between different types of time display, depending on their preferences.
 
-Errors in the programs:
--"Clear" button in not workin properly and I didn't find a fix for that even tho program is working properly. 
 
 
