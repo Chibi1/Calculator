@@ -97,9 +97,9 @@ def create_gui():
     update_clock()
 
     
-    clock_format_var.set(clock_formats[0])
-    clock_format_dropdown = OptionMenu(root, clock_format_var, *clock_formats)
-    clock_format_dropdown.grid(row=row+6, column=0, columnspan=4)
+    # clock_format_var.set(clock_formats[0])
+    # clock_format_dropdown = OptionMenu(root, clock_format_var, *clock_formats)
+    # clock_format_dropdown.grid(row=row+6, column=0, columnspan=4)
 
     def change_clock_format(*args):
 
