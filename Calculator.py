@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import *
 import time
+
+
 expression = ""
 
 def press(num:str):
@@ -96,10 +98,6 @@ def create_gui():
 
     update_clock()
 
-    
-    # clock_format_var.set(clock_formats[0])
-    # clock_format_dropdown = OptionMenu(root, clock_format_var, *clock_formats)
-    # clock_format_dropdown.grid(row=row+6, column=0, columnspan=4)
 
     def change_clock_format(*args):
 
@@ -113,7 +111,6 @@ def create_gui():
         clock_format_var.trace("w", change_clock_format)
 
     
-
     def change_color(color):
        root.configure(background=color)
 
@@ -128,7 +125,7 @@ def create_gui():
 
 
     root.mainloop()
-    
 
-create_gui()
-    
+
+if __name__ == "__main__":
+    create_gui()
